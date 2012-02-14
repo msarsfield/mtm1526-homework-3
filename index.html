@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JavaScript Application to Change Properties</title>
+<link href="css/general.css" rel="stylesheet">
+</head>
+
+
+<!--
+
+Create a small application using jQuery that allows you to manipulate a ball on the screen. Create 
+the ball using border-radius. Make sure there is text inside your ball so you can see the color change.
+ Your app should have the following features:
+
+    A dropdown where you can change 1 of 3 CSS properties: border-color, background-color, and color.
+
+    An input field where you can enter a colour.
+
+    A button that, when clicked, will apply that single CSS change to the circle.
+
+    There should be another button to hide/show the circle with an effect.
+
+
+
+
+-->
+
+<div id="wrapper">
+
+<body>
+<h1>Fun with Colours</h1>
+
+<section>
+
+  <form>
+    <select id="dropdown">
+          <option value="border-color">Border Colour</option>
+          <option value="background-color">Background Colour</option>
+          <option value="color">Text Colour</option>
+    </select>
+      
+  
+      
+    <label for="color">Colour:</label>
+    <input type="color" id="color">
+      
+      <button id="changeapply" type="submit">Apply</button>
+      
+      <button id="hide" type="submit">Hide/Show</button>
+  </form>
+
+	<div id="ball">
+		<p>M</p>
+	</div>
+
+</section>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"> </script>
+<script src="js/javascript.js"></script>
+
+</body>
+</wrapper>
+
+</html>
+

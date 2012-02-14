@@ -1,0 +1,91 @@
+@charset "utf-8";
+  
+#wrapper{  
+       width:600px;
+	   min-height: 100%;  
+       margin:0 auto;
+	   padding: 0;  
+       text-align:left;  
+	   background: url("../images/1322116_light_spots_wallpaper.jpg")repeat;
+	   background-position: top center;
+	   img
+}
+	  
+body, html{
+	height: 100%;
+	display: block;
+	background-color:#A98DE2;
+	font-family: Verdana, Geneva, sans-serif;
+	margin:0 auto;  
+	padding: 0 auto;
+   	text-align:center;  
+	font-size:12px;
+	line-height: 25px;
+}
+
+h1 {
+	color:#FF0;
+	text-align: center;
+	padding-top: 25px;
+	-webkit-text-stroke: 1px #F06; /* to figure out why did this not work*/
+}
+
+section {
+	background-color: #6F6;
+	width: 500px;
+	height: 100%;
+	border-radius: 20px;
+	border: dotted 20px #F90;
+	display: block;
+	margin:0 auto; 
+	padding: 0 auto;
+	text-align: left;
+}
+
+form{
+	width: 375px;
+	text-align: center;
+	border:outset 3px #06F;
+	border-radius: 25px;
+	padding: 25px;
+	margin: 25px;
+	border-color:#33F;
+	background-color:#CCFF33;
+}
+
+button {
+	margin-top: 20px;
+	background-color: #FF9;
+}
+
+p  {
+	
+	margin: 0;
+	padding: 30px 0 0 0 ;
+	text-align: center;
+	font-size: 80px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#ball {
+	height: 100px;
+	width: 100px;
+	margin:0 auto 0 auto;
+	padding: 0 auto;
+
+	border-style:groove;
+	border-width:15px;
+	border-radius: 100px;
+	border-color:#333;		
+	background-color:#9C6;
+	color: #636;
+}
+
+.clearfix:before, 
+.clearfix:after {
+	content: "";
+
+
+   
+
